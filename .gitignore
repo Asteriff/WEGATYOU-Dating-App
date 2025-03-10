@@ -1,0 +1,12 @@
+# Ignore Android build files
+*.iml
+.gradle
+/local.properties
+/.idea
+/captures
+/output.json
+*.apk
+*.aar
+*.log
+/build
+/app/build

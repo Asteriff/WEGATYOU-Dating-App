@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "624703053541",
+    "project_id": "wegatyou-386819",
+    "storage_bucket": "wegatyou-386819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624703053541:android:7bed9377d20aa28095fe0c",
+        "android_client_info": {
+          "package_name": "com.app.wegatyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624703053541-9ufilg7tkcbr24nk3nq5jksfr2ct0c5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoddlYFG8NpD6CUEQXfk6ijY1TCRt1QWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624703053541-9ufilg7tkcbr24nk3nq5jksfr2ct0c5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

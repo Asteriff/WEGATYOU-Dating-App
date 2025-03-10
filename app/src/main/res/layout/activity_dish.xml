@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DishActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        android:layout_width="73dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/back_button"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/cross"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="342dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/offer_title"
+        android:layout_width="213dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="210dp"
+        android:text="Favourite Dishes?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gender_subtext"
+        android:layout_width="355dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="72dp"
+        android:text="Choose up to 3 dishes."
+        android:textColor="#56000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="322dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/next" />
+
+
+    <ScrollView
+        android:layout_width="159dp"
+        android:layout_height="328dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxChinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Chinese" />
+
+            <CheckBox
+                android:id="@+id/checkBoxIndian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Indian" />
+
+            <CheckBox
+                android:id="@+id/checkBoxCaribbean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Caribbean" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAfrican"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="African" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAmerican"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="American" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBritish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="British" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFrench"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="French" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFusion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Fusion" />
+
+            <CheckBox
+                android:id="@+id/checkBoxGerman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="German" />
+
+            <CheckBox
+                android:id="@+id/checkBoxGreek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Greek" />
+
+            <CheckBox
+                android:id="@+id/checkBoxItalian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Italian" />
+
+            <CheckBox
+                android:id="@+id/checkBoxJapanese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Japanese" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSpanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onOptionClicked"
+                android:text="Spanish" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#FEDA75"
+                android:centerColor="#D62976"
+                android:endColor="#962FBF"
+                android:angle="0"/>
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+
+    <!-- Facebook logo -->
+    <item
+        android:drawable="@drawable/instagram"
+        android:gravity="center_vertical"
+        android:left="20dp"
+        android:width="32dp"
+        android:height="32dp"
+        android:paddingEnd="0dp" />
+
+</layer-list>
